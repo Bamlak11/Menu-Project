@@ -152,6 +152,11 @@ main{
 }
 
 
+#fname, #lname, #email{
+    text-align: center;
+    padding: 2px;
+}
+
 
 footer{
     background: #7da6f9;
