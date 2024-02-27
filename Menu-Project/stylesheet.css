@@ -29,7 +29,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -48,6 +48,8 @@ main{
 #hero{
     text-align: center;
     margin-bottom: 40px;
+    border: dashed;
+    background-color: #eafff8;
 }
 
 
