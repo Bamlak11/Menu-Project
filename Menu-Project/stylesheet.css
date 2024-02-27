@@ -48,7 +48,11 @@ main{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     border: solid;
+    border-radius: 10px;
     margin-bottom: 30px;
+    padding: 5px;
+    box-shadow: inset;
+    background-color: #eafff8;
 }
 
 #Menu-title, #Drinks-title{
@@ -58,17 +62,11 @@ main{
 }
 
 
-.Menu img, .Drink img{
-    width: 100px;
-    height: 100px;
+.Menu img, .Drinks img{
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-}
-
-
-img{
-    width: 100%;
-    height: 100px;
-    border-radius: 50%;
+    max-width: 150px;
 }
 
 
