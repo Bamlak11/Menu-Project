@@ -77,15 +77,18 @@ main{
     height: 150px;
     border-radius: 50%;
     max-width: 150px;
+    border: dashed;
 }
 
 
 .Menu{
     justify-self: center;
+    text-align: center;
 }
 
 .Drinks{
     justify-self: center;
+    text-align: center;
 }
 
 
