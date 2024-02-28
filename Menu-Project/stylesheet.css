@@ -32,9 +32,10 @@ nav ul li{
 
 nav ul li a{
     color: #000000;
-    text-decoration: none;
+    text-decoration-line: underline;
     border-style: outset; 
     border-width: 3px;
+    border-color: #eafff8;
 }
 
 main{
@@ -154,13 +155,24 @@ main{
 }
 
 
-#fname, #lname, #email{
+#fname, #lname, #email, #reason{
     justify-content: center;
     padding: 3px;
     border-radius: 8px;
+    margin: 4px;
     
 }
 
+#reason{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+button{
+    padding-block: 4px;
+    border-style: inset;
+    
+}
 
 footer{
     background: #7da6f9;
