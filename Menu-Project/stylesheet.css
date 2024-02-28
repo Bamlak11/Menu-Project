@@ -153,8 +153,10 @@ main{
 
 
 #fname, #lname, #email{
-    text-align: center;
-    padding: 2px;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 8px;
+    
 }
 
 
