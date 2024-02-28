@@ -29,7 +29,7 @@ nav ul li{
     display: inline;
     margin-right: 30px;
 }
-
+/* style for my navigation (home, menu, and contact us) */
 nav ul li a{
     color: #000000;
     text-decoration-line: underline;
@@ -58,7 +58,7 @@ main{
     padding: 10px;
 }
 
-
+/* styling for my container */
 #container{
     display: grid;
     grid-template-rows: repeat(2, auto);
@@ -77,7 +77,7 @@ main{
     grid-row: 1 / 2;
 }
 
-
+/* image styling */
 .Menu img, .Drinks img{
     width: 150px;
     height: 150px;
@@ -86,7 +86,7 @@ main{
     border: dashed;
 }
 
-
+/* menu and drink alignment */
 .Menu{
     justify-self: center;
     text-align: center;
@@ -99,7 +99,7 @@ main{
 
 
 
-
+/* css for my food grid */
 #Burrito{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
@@ -128,7 +128,7 @@ main{
 
 
 
-
+/* css for my drink grid */
 #Jarritos{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
@@ -154,7 +154,7 @@ main{
     grid-row: 3 / 3;
 }
 
-
+/* style for my form */
 #fname, #lname, #email, #reason{
     justify-content: center;
     padding: 3px;
@@ -168,12 +168,13 @@ main{
     height: 200px;
     padding-bottom: 10px;
 }
+
 button{
     padding-block: 4px;
     border-style: inset;
     
 }
-
+/* footer css */
 footer{
     background: #7da6f9;
     color: #eafff8;
