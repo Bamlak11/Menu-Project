@@ -121,7 +121,7 @@ main{
 }
 
 #Guacamole{
-    grid-column: 2 / 4;
+    grid-column: 3 / 4;
     grid-row: 3 / 3;
 }
 
@@ -150,7 +150,7 @@ main{
 }
 
 #Tea{
-    grid-column: 2 / 4;
+    grid-column: 3 / 4;
     grid-row: 3 / 3;
 }
 
@@ -181,7 +181,7 @@ footer{
     position: fixed;
     bottom:0;
     width: 100%;
-    height: 35px;
+    height: 27px;
     padding: 10px 0;
     font-weight: 700;
 }
