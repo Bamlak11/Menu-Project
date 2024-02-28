@@ -33,6 +33,8 @@ nav ul li{
 nav ul li a{
     color: #000000;
     text-decoration: none;
+    border-style: outset; 
+    border-width: 3px;
 }
 
 main{
