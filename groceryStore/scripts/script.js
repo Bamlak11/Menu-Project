@@ -66,19 +66,4 @@ const addInventory = () => {
 
 
 // when btn is clicked it will retireve the value and store it in the id 'inventory-list'
-document.getElementById('add-inventory-btn').onclick = () => {
-    const itemName = document.getElementById('item-name').value;
-    const itemPrice = parseFloat(document.getElementById('item-price').value);
-    const itemQuantity = parseInt(document.getElementById('item-quantity').value);
-    const itemCategory = document.getElementById('category').value;
-    const groceryInventory = new GroceryInventory(itemName, itemCategory, itemPrice, itemQuantity);
-
-    inventory.push(groceryInventory);
-
-    addInventory(itemName, itemCategory, itemPrice, itemQuantity);
-
-    displayInventory(inventory, 'inventory-list');
-
-};
-
-
+document.getElementById('add-inventory-btn').onclick = addInventory;
