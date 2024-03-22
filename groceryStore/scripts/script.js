@@ -35,7 +35,7 @@ const addInventoryItem = (name, category, price, quantity) => {
 // function to take in inventory array and display it as a list
 function inventorySold(inventory) {
     const inventoryElement = document.getElementById('inventory-list');
-    inventoryElement.innerHTML = '<h2>Inventory List:</h2>';
+    inventoryElement.innerHTML = '<h2></h2>';
     const list = document.createElement('ul');
 
     inventory.forEach(item => {
@@ -63,7 +63,6 @@ const addInventory = () => {
     inventorySold(inventory);
 
 };
-
 
 // when btn is clicked it will retireve the value and store it in the id 'inventory-list'
 document.getElementById('add-inventory-btn').onclick = addInventory;

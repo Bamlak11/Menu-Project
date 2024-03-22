@@ -25,16 +25,17 @@
     
 
     <main>
-
-        <div class="inventory-list" id="inventory-list">
+        
             <h2>Inventory List:</h2>
+        <div class="inventory-list" id="inventory-list">
+           
 
 
             <div class="notification" id="notification">
 
             </div>
         </div>
-
+        
 
         <div class="inventory-form">
             <h2>Add New Inventory:</h2>
@@ -56,6 +57,42 @@
                 <input type="radio" value="meat" required>Meat
             </fieldset>
             <button type="submit" id="add-inventory-btn">Add Item</button>
+
+        </div>
+
+        <h2>Current Inventory</h2>
+        <div class="current-inventory">
+            
+
+            <table class="inventory-table">
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+
+                <tr>
+                  <td>Apple</td>
+                  <td>Fruit</td>
+                  <td>$2</td>
+                  <td>50</td>
+                </tr>
+
+                <tr>
+                  <td>Milk</td>
+                  <td>Beverage</td>
+                  <td>$7</td>
+                  <td>107</td>
+                </tr>
+
+                <tr>
+                  <td>KitKat</td>
+                  <td>Snacks</td>
+                  <td>$3</td>
+                  <td>205</td>
+                </tr>
+              </table>
 
         </div>
 

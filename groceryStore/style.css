@@ -13,6 +13,12 @@ header {
     flex-direction: column;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    width: auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -44,11 +50,14 @@ nav li a:hover{
 
 body {
     background-color: rgb(255, 255, 255);
+    width: auto;
 }
 
 main{
     background-color: rgb(127, 234, 127);
     border-radius: 20px;
+    padding: 55px;
+    width: auto;
 }
 
 .inventory-list {
@@ -93,6 +102,21 @@ button:hover{
     color: rgb(11, 74, 9);
 }
 
+
+.current-inventory {
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(140, 247, 140);
+    border-radius: 10px;
+}
+
+table tr td{
+margin: 0;
+padding: 25px;
+}
+
 footer{
     /* border: solid; */
     background-color: rgb(50, 150, 50);
@@ -103,4 +127,5 @@ footer{
     color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: auto;
 }
